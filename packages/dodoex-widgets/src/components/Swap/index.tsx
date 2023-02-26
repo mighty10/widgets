@@ -518,18 +518,6 @@ export function Swap() {
           }}
           onClick={() => window.open(AppUrl)}
         >
-          <Box
-            sx={{
-              width: 24,
-              typography: 'body2',
-              transform: 'translate(1px, 2px)',
-              '& path': {
-                fill: theme.palette.text.disabled,
-              },
-            }}
-            component={Dodo}
-          />
-          <Trans>Powered by DODO protocol</Trans>
         </Box>
       </Box>
 
